@@ -8,11 +8,14 @@
     <!-- Styles -->
     @vite('resources/js/app.js')
 
-    <title>Document</title>
+    <title>Laravel Model Controller</title>
 </head>
 <body>
-    @include("partials.header")
+    <div class="container">
 
-    @yield("content")
+        @include("partials.header")
+
+        @yield("content")
+    </div>
 </body>
 </html>
