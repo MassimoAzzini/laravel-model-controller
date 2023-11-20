@@ -11,11 +11,13 @@
     <title>Laravel Model Controller</title>
 </head>
 <body>
-    <div class="container">
 
-        @include("partials.header")
+    @include("partials.header")
+    <main>
+        <div class="container">
+            @yield("content")
 
-        @yield("content")
-    </div>
+        </div>
+    </main>
 </body>
 </html>
